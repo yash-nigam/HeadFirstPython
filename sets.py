@@ -1,0 +1,10 @@
+vowels = {'a','e','i','o','u','a','e','i','i','o'}
+text = set("MacBook-Pro:HeadFirstPython yashnigam$ python sets.py")
+uniontext = vowels.union(text)
+intersectiontext = vowels.intersection(text)
+print(intersectiontext)
+print(sorted(uniontext))
+print(sorted(list(uniontext)))
+# random_string=set(raw_input("Enter some test: "))
+# print(vowels)
+# print(random_string)
