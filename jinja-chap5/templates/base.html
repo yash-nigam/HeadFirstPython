@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+
+<head>
+    <!-- This is jinja 2 directive its value will be provided before rendering -->
+    <title> {{ the_title }} </title>
+    <link rel="stylesheet" href="static/hf.css" />
+</head>
+
+<body>
+    <!-- This jinja 2 named block should be rendered before rendering, by actual html code -->
+    {% block body %}
+
+    {% endblock %}
+</body>
+
+</html>

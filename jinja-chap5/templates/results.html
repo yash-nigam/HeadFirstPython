@@ -1,0 +1,16 @@
+<!-- inherit from base.html and provide the replacement values of jinja tags in base.html -->
+{%  extends 'base.html' %}
+
+{% block body %}
+<h2>{{the_title}}</h2>
+
+<p>You Submittd the following data</p>
+<table>
+    <tr><td>Phrase:</td><td>{{  the_phrase }}</td></tr>
+    <tr><td>Letters:</td><td>{{  the_letters  }}</td></tr>
+</table>
+
+<p>When "{{  the_phrase }}" is searched in "{{ the_letters }}" following output is returned</p>
+<h3>{{ the_result }}</h3>
+{% endblock %}
+
